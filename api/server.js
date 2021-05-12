@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 var port = 8080; // set our port
 
 // Bear models lives here
-var Bear = require('./app/models/bear');
+var Bear = require('../app/models/bear');
 
 // ROUTES FOR OUR API
 // =============================================================================
