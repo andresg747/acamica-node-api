@@ -112,6 +112,7 @@ router.route('/bears/:bear_id')
 
 // REGISTER OUR ROUTES -------------------------------
 app.use('/api', router);
+app.use('/', (req, res) => res.json({ msg: 'Success' }));
 
 // START THE SERVER
 // =============================================================================
